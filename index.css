@@ -1,0 +1,84 @@
+           
+                .card1 img{
+                    height: 350px;
+                    width: 50%;
+                    display: block;
+                    margin: 0 auto;
+                }
+                .title{
+                    width: 80%;
+                    text-align: center;
+                    color: white;
+                    display: block;
+                    margin: 0 auto;
+                }
+                .title1{
+                    text-align: center; 
+                    color: white;
+                }
+                .column1 {
+                    float: left;
+                    width: 33.33%;
+                    text-align: center;
+                   
+                  }
+                  
+                  /* Clear floats after the columns */
+                  .row1:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                  }
+                  .cpy{
+                    text-align: center;
+                    padding-bottom: 5%;
+                  }
+                  .column {
+                    float: left;
+                  }
+                  
+                  .left {
+                    width: 25%;
+                  }
+                  
+                  .right {
+                    width: 75%;
+                  }
+                  @media screen and (max-width: 600px) {
+                    .column,.column1,.card1 {
+                      width: 100%;
+                    }
+                  }
+                  .card-group .card .card-body img{
+                    width: 60px;
+                    height: 60px;
+                    display: block;
+                    margin: 0 auto;
+                  }
+                  .card-group .card .card-body p{
+                    text-align:justify;
+                  }
+                  .card-group .card .card-body h5{
+                    text-align:center;
+                  }
+                  .card-museum{
+                    width: 80%;
+                    margin-left: 10%;
+                   
+                  }
+                  .col{
+                    height: 400px;
+                  }
+                  .card-text{
+                    height: 250px;
+                  }
+              
+
+                  .card-image{
+                    width: 80%;
+                    margin-left: 10%;
+                    height: 350px;
+
+                    
+                  }
+               
