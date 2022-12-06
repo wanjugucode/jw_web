@@ -75,7 +75,8 @@ width: 30%;
 display: flex;
 justify-content: space-around;
 width: 30%;
-margin-left: 60%;
+margin-left: 55%;
+
 margin-top: -13%;
 }
 .nav_links{
@@ -85,6 +86,13 @@ margin-top: -13%;
   width: 30%;
   margin-left: 60%;
   margin-top: -13%;
+  font-size: 14px;
+  }
+  .nav_links:hover{
+    font-weight: bold;
+    color: white;
+    font-size: 14.5px;
+  
   }
 .nav-links a{
   color: #fffefe;
@@ -134,7 +142,9 @@ button{
   position: relative;
   text-align: left;
   top: 0;
-  width: 23%;
+  width: 30%;
+  margin: 1%;
+  height: 50px;
   font-size: 14.5px;
 
   text-align: center;
