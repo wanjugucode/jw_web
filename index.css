@@ -1,5 +1,9 @@
            
-                .card1 img{
+              body{
+                background: #343131;
+                width: 100%;
+              }
+              .card1 img{
                     height: 350px;
                     width: 50%;
                     display: block;
@@ -16,39 +20,11 @@
                     text-align: center; 
                     color: white;
                 }
-                .column1 {
-                    float: left;
-                    width: 33.33%;
-                    text-align: center;
-                   
+
+                  .collections{
+                  margin-top: -1.5%;
                   }
-                  
-                  /* Clear floats after the columns */
-                  .row1:after {
-                    content: "";
-                    display: table;
-                    clear: both;
-                  }
-                  .cpy{
-                    text-align: center;
-                    padding-bottom: 5%;
-                  }
-                  .column {
-                    float: left;
-                  }
-                  
-                  .left {
-                    width: 25%;
-                  }
-                  
-                  .right {
-                    width: 75%;
-                  }
-                  @media screen and (max-width: 600px) {
-                    .column,.column1,.card1 {
-                      width: 100%;
-                    }
-                  }
+                
                   .card-group .card .card-body img{
                     width: 60px;
                     height: 60px;
@@ -81,4 +57,114 @@
 
                     
                   }
-               
+        
+  ul{
+    list-style: none;
+  }
+
+.nav-links li{
+  list-style: none;
+/* Difference of text-decoration: and list-style: ;; */
+}
+.nav_links li{
+  list-style: none;
+/* Difference of text-decoration: and list-style: ;; */
+}
+.nav-links{
+width: 30%;
+display: flex;
+justify-content: space-around;
+width: 30%;
+margin-left: 60%;
+margin-top: -13%;
+}
+.nav_links{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin-left: 60%;
+  margin-top: -13%;
+  }
+.nav-links a{
+  color: #fffefe;
+}
+.nav-links a:hover{
+  font-weight: bold;
+  font-size: 14.5px;
+  color: white;
+
+}
+.nav_links a{
+  color: #fffefe;
+}
+.nav_links a:hover{
+  font-weight: bold;
+  font-size: 14.5px;
+  color: white;
+
+}
+.nav_links li a:hover{
+  font-weight: bold;
+  color: white;
+  font-size: 14.5px;
+
+}
+.back-btn{
+  width:10%;
+  height: 50px;
+  text-align: center;
+  margin-top: 4%;
+  margin-left: 0%;
+ 
+}
+.back-btn li {
+  margin-top: -7%;
+  color: white;
+}
+
+button{
+  border: 1px solid #e3e3e3;
+  border-radius: 16px;
+  box-sizing: border-box;
+  font-family: Source Sans Pro;
+  background: #a15556;
+  left: 0;
+  padding: 10px;
+  position: relative;
+  text-align: left;
+  top: 0;
+  width: 23%;
+  font-size: 14.5px;
+
+  text-align: center;
+}
+.new-footer{
+  background: #a15556;
+   color: white; 
+}
+.row1{
+  margin-top: 5%;
+  padding-top: 2%;
+}
+.column1 {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  height: auto;
+ 
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cpy{
+  text-align: center;
+  padding-bottom: 1%;
+}
+.card-group .card .card-body p{
+  text-align: center;
+}

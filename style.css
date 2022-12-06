@@ -1,3 +1,5 @@
+
+
 /*-------------------------------------------------------------------
     File Name: style.css
 -------------------------------------------------------------------*/
@@ -18,12 +20,9 @@ body {
     line-height: 26px;
     width: 100%;
     overflow-x: hidden;
-    background-color:  #f8e5e4;
-
 
 }
 .nav.nav.justify-content-center{
-    background-color: #f8e5e4;
     height: 80px;
     margin-top: 0%;
 }
@@ -31,13 +30,13 @@ body {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-
 } */
 .abouts
 
 {
     text-align: center;
     margin-top: 5%;
+   
 }
 .card
 
@@ -63,18 +62,25 @@ body {
  text-align: center;
 }
 
-.nav-item{
-    padding-top: 1%;
+.nav.nav.justify-content-end{
+   
+
+  
 }
 
+ul{
+    margin-left: 99%;
+}
 .nav-item .nav-link
 {
     color: black;
     padding-bottom: 5%;
     font-size: 17px;
+
    
 }
 .section-aboutus{
+    
   
 }
 
